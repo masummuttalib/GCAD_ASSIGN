@@ -1,0 +1,14 @@
+---
+title: "Code Book for Getting and Cleaning Data"
+output: html_document
+---
+
+
+##summary of Tidydata.txt
+
+##contains three main sets of variables:
+#1 - subject  (= id of the test subject)
+#2 - activity (= type of activity performed when tests taken)
+#3/n - std deviation and mean variables
+
+#
