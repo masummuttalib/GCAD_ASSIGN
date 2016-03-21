@@ -8,10 +8,12 @@ output: html_document
 
 ##summary of Tidydata.txt
 
+##the cleaning process combines the test and training data sets, adds labels and subjects, etc.
+
 ##contains three main sets of variables:
 #1 - subject  (= id of the test subject)
 #2 - activity (= type of activity performed when tests taken)
-#3/n - std deviation and mean variables:
+#3/n - std deviation and mean variables, unaffected by coding.
 
 #[1] "subject"                      "activity"                     "tBodyAccMeanX"               
 # [4] "tBodyAccMeanY"                "tBodyAccMeanZ"                "tBodyAccStdX"                
