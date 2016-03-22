@@ -3,12 +3,32 @@ the repo for the Getting and Cleaning Data assignment
 
 ---
 title: "Code Book for Getting and Cleaning Data"
-output: html_document
 ---
 
-##summary of Tidydata.txt
+Purpose:
+
+##this is the code for the Coursera Getting and Cleaning Data Course Project ASsignment
+#Its purpose is to:
+  #1  Merges the training and the test sets to create one data set.
+  #2  Extracts only the measurements on the mean and standard deviation for each measurement.
+  #3  Uses descriptive activity names to name the activities in the data set
+  #4  Appropriately labels the data set with descriptive variable names.
+  #5  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##the cleaning process combines the test and training data sets, adds labels and subjects, etc.
+
+Requirements:
+
+#data must be in:
+#C:\Users\muttalib.masum\Documents\Library\Coursera\Getting_Cleaning_Data\UCI HAR Dataset
+#train data must be in sub-folder \train\
+#test data must be in sub-folder \test\
+
+packages required: Dplyr, plyr, reshape2
+
+Output:
+##Tidydata.txt
+
 
 ##contains three main sets of variables:
 #1 - subject  (= id of the test subject)
