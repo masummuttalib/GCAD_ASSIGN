@@ -14,14 +14,12 @@ library(reshape2)
 #import activity labels + features
 setwd("c:/Users/Muttalib.Masum/documents/Library/Coursera/Getting_Cleaning_Data/UCI HAR Dataset")
 act_labels <- read.table("activity_labels.txt")
-#act_labels[,2] <- as.character(act_labels[,2])
 features <- read.table("features.txt")
-#features[,2] <- as.character(features[,2])
 
 # Extract only the data on mean and standard deviation
 featmeanstd <- grep(".*mean.*|.*std.*", features[,2])
 featmeanstd.names <- features[featmeanstd,2]
-#needed?
+
 featmeanstd.names = gsub('-mean', 'Mean', featmeanstd.names)
 featmeanstd.names = gsub('-std', 'Std', featmeanstd.names)
 featmeanstd.names <- gsub('[-()]', '', featmeanstd.names)
