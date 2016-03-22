@@ -1,6 +1,5 @@
 ---
 title: "Code Book for Getting and Cleaning Data"
-output: html_document
 ---
 
 
@@ -9,6 +8,22 @@ output: html_document
 ##contains three main sets of variables:
 #1 - subject  (= id of the test subject)
 #2 - activity (= type of activity performed when tests taken)
-#3/n - std deviation and mean variables
+#3/n - std deviation and mean variables.
 
-#
+#packages: calls plyr, dplyr,reshape2
+
+#act_labels - data frame for labels data
+#features - data frame for features data
+#featmeanstd - sub-set of mean, stdev containing variables
+#featmeanstd.names - selects variables, 
+#combinedData - rbinded test, train data sources
+
+
+#Acts_train - data frame containing activities data (training data set)
+#Subj_train - data frame containing participant subject data (training data set)
+#train - data fraem for combination of all training data
+
+
+#Acts_test - data frame containing activities data (testing data set)
+#Subj_test - data frame containing participant subject data (testing data set)
+#test - data fraem for combination of all test data
